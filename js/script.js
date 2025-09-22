@@ -1,7 +1,4 @@
-// import images as relative image path won't work with vite/vercel.
-import sushi12 from "../assets/sushi-12.png";
-import sushi11 from "../assets/sushi-11.png";
-import sushi10 from "../assets/sushi-10.png";
+// Using direct asset paths for GitHub Pages compatibility
 
 // AOS will be loaded via CDN in HTML
 // init AOS animation
@@ -30,14 +27,14 @@ const trendingDrinks = [
 
 const cards = [
   {
-    imgSrc: sushi12,
+    imgSrc: "assets/sushi-12.png",
     alt: "sushi-12",
     title: "Chezu Sushi",
     rating: "4.8",
     price: "$21.00",
   },
   {
-    imgSrc: sushi11,
+    imgSrc: "assets/sushi-11.png",
     alt: "sushi-11",
     title: "Originale Sushi",
     rating: "4.8",
@@ -45,7 +42,7 @@ const cards = [
     active: true,
   },
   {
-    imgSrc: sushi10,
+    imgSrc: "assets/sushi-10.png",
     alt: "sushi-10",
     title: "Ramen Legendo",
     rating: "4.8",
